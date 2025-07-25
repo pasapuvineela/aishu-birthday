@@ -1,1 +1,148 @@
 # aishu-birthday
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Happy Birthday Aishwarya</title>
+
+  <style>
+
+    body {
+
+      margin: 0;
+
+      padding: 0;
+
+      font-family: 'Segoe UI', sans-serif;
+
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+
+      background-size: cover;
+
+      color: white;
+
+      text-align: center;
+
+      overflow-x: hidden;
+
+    }
+
+    h1 {
+
+      font-size: 3em;
+
+      margin-top: 20px;
+
+      animation: glow 2s infinite alternate;
+
+    }
+
+    @keyframes glow {
+
+      from { text-shadow: 0 0 10px #fff, 0 0 20px #f0f, 0 0 30px #0ff; }
+
+      to { text-shadow: 0 0 20px #fff, 0 0 30px #f0f, 0 0 40px #0ff; }
+
+    }
+
+    p {
+
+      font-size: 1.2em;
+
+      max-width: 90%;
+
+      margin: 20px auto;
+
+      background: rgba(0, 0, 0, 0.5);
+
+      padding: 10px;
+
+      border-radius: 10px;
+
+    }
+
+    .gallery {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      justify-content: center;
+
+      gap: 15px;
+
+      margin: 30px 0;
+
+    }
+
+    .gallery img {
+
+      width: 220px;
+
+      height: 320px;
+
+      object-fit: cover;
+
+      border: 4px solid white;
+
+      border-radius: 10px;
+
+      box-shadow: 0 0 10px rgba(255,255,255,0.5);
+
+      transition: transform 0.3s;
+
+    }
+
+    .gallery img:hover {
+
+      transform: scale(1.05);
+
+    }
+
+    audio {
+
+      margin-top: 30px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Happy Birthday Aishuuu 🫶🏻</h1>
+
+  <p>May this year bring you all happiness, new opportunities, and new memories to cherish.<br>
+
+     You deserve all the love and celebration! 🤍</p>
+
+  <div class="gallery">
+
+    <img src="img1.jpg" alt="Friend Photo 1" />
+
+    <img src="img2.jpg" alt="Friend Photo 2" />
+
+    <img src="img3.jpg" alt="Friend Photo 3" />
+
+    <img src="img4.jpg" alt="Friend Photo 4" />
+
+    <img src="img5.jpg" alt="Friend Photo 5" />
+
+  </div>
+
+  <audio controls autoplay loop>
+
+    <source src="remo-birthday-theme.mp3" type="audio/mpeg" />
+
+    Your browser does not support the audio tag.
+
+  </audio>
+
+</body>
+
+</html>
